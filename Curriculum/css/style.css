@@ -1,0 +1,70 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global para o corpo do documento */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f6f8fa; /* Cor de fundo do GitHub */
+}
+
+/* Estilo para o cabeçalho (navbar) */
+header {
+  background-color: #110327; /* Cor de fundo do cabeçalho do GitHub */
+  padding: 15px 0;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff; /* Cor do texto no cabeçalho do GitHub */
+  font-weight: bold;
+}
+
+/* Estilo para as seções principais */
+section {
+  margin: 30px 0;
+}
+
+/* Estilo para os títulos das seções */
+h1 {
+  color: #0366d6; /* Cor do link no GitHub */
+}
+
+/* Estilo para os itens de lista nas seções de experiência e outras experiências */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
+
+/* Estilo para links */
+a {
+  color: #0366d6; /* Cor do link no GitHub */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #032f62; /* Cor do link no GitHub ao passar o mouse */
+}
+
+/* Estilo para as informações de contato */
+#contact {
+  text-align: center;
+}
+
+/* Estilo para rodapé */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f6f8fa; /* Cor de fundo do rodapé no GitHub */
+  color: #586069; /* Cor do texto no rodapé no GitHub */
+}
